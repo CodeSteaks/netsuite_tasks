@@ -4,6 +4,7 @@
  */
 
 define(["N/ui/dialog"], function(dialog){
+    // Validate percentage field value
     function saveRecord(context) {
         let bonusRecord = context.currentRecord;
         if (context.fieldId == "123") {
