@@ -1,3 +1,9 @@
+/**
+ * @NApiVersion 2.1
+ * @ScriptType ClientScript
+ */
+
+
 define([
     'N/record'
 ], function (record) {
