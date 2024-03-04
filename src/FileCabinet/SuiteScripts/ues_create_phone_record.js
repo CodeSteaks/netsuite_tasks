@@ -17,7 +17,7 @@ define(['N/record'], function (record) {
             var phonCallRecord = record.create({
                 type : record.Type.PHONE_CALL,
                 defaultValues : {
-                    customform : -150
+                    customform : -150 // Id of the standard form
                 }
             });
             phonCallRecord.setValue("title", "Call HR for Benefits");
