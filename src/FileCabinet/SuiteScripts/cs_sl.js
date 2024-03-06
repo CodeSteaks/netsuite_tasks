@@ -7,7 +7,11 @@ define(['N/record'], function (record) {
     return {
         pageInit : function(context) {
             var salesOder = context.currentRecord;
-            
+            var item = record.getSublistValue({
+                group : 'item',
+                name  : 'amount',
+                line  : '2'
+            });
         }
     }
 });
