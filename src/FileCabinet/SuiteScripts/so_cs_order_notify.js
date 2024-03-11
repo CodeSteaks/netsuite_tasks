@@ -5,7 +5,7 @@
 
 
 define(['N/ui/dialog', 'N/email'], function (dialog, email) {
-    // function that will be triggered on page refresh
+    // function that will be triggered on page refresh.
     function pageInit (context) {
         var order = context.currentRecord;
         var status = order.getText("orderstatus");
